@@ -28,7 +28,7 @@
 	background-color: #000;
 }
 
-.home__hero section {
+.home__hero {
 	height: 100vh;
 	/* display: inline-block; */
 }
