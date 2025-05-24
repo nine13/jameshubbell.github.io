@@ -1,4 +1,4 @@
-.box {
+/* .box {
 	position: relative;
 	width: 100px;
 	height: 100px;
@@ -20,4 +20,39 @@
 
 .grey {
 	background-color: grey;
+} */
+
+* {
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+}
+
+.home__hero section {
+	height: 100vh;
+	/* display: inline-block; */
+}
+
+.home__hero-bg {
+    left: calc((100vw/2) - 12em);
+    margin-top: 3rem;
+    position: absolute;
+}
+
+.home__hero-window {
+    background: linear-gradient(45deg, tomato, gold);
+    width: 24em;
+    aspect-ratio: 11 / 15;
+    border-radius: 12rem 12rem 0 0;
+    position: absolute;
+    opacity: 50%;
+}
+
+.home__hero-image {
+	position: relative;
+	width: 24em;
+	margin-top: 0rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding-top: 2.5rem;
 }
